@@ -1,0 +1,9 @@
+---
+- name: Add a user
+  hosts: all
+  tasks:
+    - name: Add User
+      user:
+        name: "joel"
+        comment: "ME!"
+        password: '$6$.R.UiVabDvNmimR1$snu/oZ1n3DPveN5n7r0YfERlbcU7R4Gb2az6g8z4HAG5/F07wMqxnu8UhGJ31djKsI6Fi299OLPF2k9pyc1Ye0'
