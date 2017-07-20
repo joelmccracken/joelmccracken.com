@@ -1,0 +1,36 @@
+± |master ✓| → python2 -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.using(rounds=5000).hash(getpass.getpass())"
+Password:
+$6$aLeWGULJWDnnviU0$9WwXpnUM0521QV/WIwz2wckU/IDdPnAWQGq1UFoX1lqeLypPIgdsKZ.mMTKcY59.tZ/qqx4uD8//qmOx04uR./
+
+ 2017-07-19 16:04:08 ☆  Joels-MacBook-Pro in ~/Projects/joelmcracken.com
+± |master ✓| → ssh joel@private.joelmccracken.com
+joel@private.joelmccracken.com's password:
+Permission denied, please try again.
+joel@private.joelmccracken.com's password:
+^E
+Permission denied, please try again.
+joel@private.joelmccracken.com's password:
+Permission denied (publickey,password).
+
+ 2017-07-19 16:04:54 ☆  Joels-MacBook-Pro in ~/Projects/joelmcracken.com
+± |master ✓| → python2 -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.using(rounds=5000).hash(getpass.getpass())"
+Password:
+$6$pKfFhBd8eAN9fiHG$CCs9CNvpv1r3X5UBtmB1belzvvUv3dWe8w8zbvLTnYrPJkJXuUdMnf0SNSbBTGeBN/sbzU3JLyg7ISj/x9jgD.
+
+ 2017-07-19 16:05:53 ☆  Joels-MacBook-Pro in ~/Projects/joelmcracken.com
+± |master ✓| → python2 -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.using(rounds=5000).hash(getpass.getpass())"
+Password:
+$6$R5OHLjyFWWBOHP10$vDBzzyjLzAm8JgRs/yONQhO0CbRL9hJdGJzxTdBVhD4talXlcvcVgmQPaf5hzWP/UZz9MgsLT/hecBAqh55KY.
+
+ 2017-07-19 16:05:56 ☆  Joels-MacBook-Pro in ~/Projects/joelmcracken.com
+± |master ✓| → python2 -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.using(rounds=5000).hash(getpass.getpass())"
+Password:
+$6$gP12r/5sbS1jhQrd$bs/aX1YvU1EsIQ4H5jnnOP6CSatSuEAMMzyG/kKSd5asSColmskrnYtYw4YRto.bGKpwA5/98.I1zOr5rmY0U0
+
+ 2017-07-19 16:06:01 ☆  Joels-MacBook-Pro in ~/Projects/joelmcracken.com
+± |master ✓| → python2 -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.using(rounds=5000).hash(getpass.getpass())"
+Password:
+$6$.R.UiVabDvNmimR1$snu/oZ1n3DPveN5n7r0YfERlbcU7R4Gb2az6g8z4HAG5/F07wMqxnu8UhGJ31djKsI6Fi299OLPF2k9pyc1Ye0
+
+ 2017-07-19 16:06:15 ☆  Joels-MacBook-Pro in ~/Projects/joelmcracken.com
+± |master ✓| → ansible-playbook -i hosts -u root -s accounts.yml
